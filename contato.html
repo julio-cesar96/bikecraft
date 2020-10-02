@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contato.css">
     </head>
     <body>
     <!-- HEADER -->
@@ -22,15 +23,74 @@
                         <li><a href="sobre.html">Sobre</a></li>
                         <li><a href="produto.html">Produto</a></li>
                         <li><a href="portifolio.html">Portifólio<a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="contato.html" class="menu_ativo">Contato</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
     <!-- HEADER -->
+    
+    <!-- BANNER -->
+        <section class="banner-interno interna-contato">
+            <div class="container">
+                <h1>Contato</h1>
+                <p>tire suas dúvidas com a gente</p>
+            </div>
+        </section>
+    <!-- BANNER -->
 
+    <!-- FORM - CONTATO -->
+    <section class="contato container">
+            <form id="form_contato" class="contato-form grid-8">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Seu nome aqui" />
 
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="exemplo@gmail.com" />
 
+                <label for="nome">Telefone</label>
+                <input type="text" id="telefone" placeholder="(21) 98877-4560" />
+
+                <label for="nome">Sua mensagem</label>
+                <textarea id="especificacoes" placeholder="Qual é o motivo do seu contato?"></textarea>
+
+                <button type="submit" class="btn btn-preto">Enviar</button>
+            </form>
+
+            <div class="contato-dados grid-8">
+                <h3>Dados</h3>
+                <span>+55 21 97434 4151</span>
+                <span>julio_cbs96@hotmail.com</span>
+                <span>Rua  Vila Mariana, 252 - Cosmorama</span>
+                <span>Mesquita - RJ - Brasil</span>
+
+                <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>
+                            <a href="http://facebook.com" target="_blank">
+                                <img src="img/redes-sociais/facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com" target="_blank">
+                                <img src="img/redes-sociais/instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com" target="_blank">
+                                <img src="img/redes-sociais/twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+    </section>
+    <!-- FORM - CONTATO -->
+
+    <!-- MAPA -->
+    <section class="container contato-mapa">
+        <a href="https://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikecraft"></a>
+    </section>
+    <!-- MAPA -->
     <!-- FOOTER -->
     <footer>
         <div class="footer">
@@ -44,7 +104,7 @@
                     <ul>
                         <li>- 21 97434-4151</li>
                         <li>- julio_cbs96@hotmail.com</li>
-                        <li>- Bela Vista - SP</li>
+                        <li>- Mesquita - RJ</li>
                     </ul>
                 </div>
                 <div class="grid-4 footer_redes_sociais">
