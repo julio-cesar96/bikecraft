@@ -15,3 +15,10 @@ if (window.SimpleSlide) {
     });
 /* SLIDE DE BIKES DO PORTIFOLIO */
 }
+
+/* ANIMAÇÃO */
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}
+/* ANIMAÇÃO */
+

@@ -436,3 +436,32 @@ p{
     background: #fec63e;
 }
 /* SLIDE PORTIFOLIO DE BIKES - JS */
+
+/* ANIMAÇÕES - JS */
+
+.js [data-anime] {
+    opacity: 0;
+}
+   /*  Outras variações de animação */
+   .fadeInDown {
+        transform: translate3d(0,-20px,0);
+    }
+    .fadeInUp {
+        transform: translate3d(0,20px,0);
+    }
+    .fadeInRight {
+        transform: translate3d(20px,0,0);
+    }
+    .fadeInLeft {
+        transform: translate3d(-20px,0,0);
+    }
+    /*  Outras variações de animação */
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
+}
+
+
+/* ANIMAÇÕES - JS */
